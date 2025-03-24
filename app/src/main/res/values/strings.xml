@@ -1,0 +1,21 @@
+<resources>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="favorites">Favorites</string>
+    <string name="no_favorites">No favorite cities yet.</string>
+    <string name="three_day_forecast">3-Day Forecast (3-Hour Intervals)</string>
+    <string name="feels_like">Feels like: %1$s°C</string>
+    <string name="humidity">Humidity: %1$s%%</string>
+    <string name="wind">Wind: %1$s m/s</string>
+    <string name="sunrise">Sunrise: %1$s 🌅</string>
+    <string name="sunset">Sunset: %1$s 🌇</string>
+    <string name="rain">Rain: %1$s mm</string>
+    <string name="snow">Snow: %1$s mm</string>
+    <string name="no_internet">No internet connection. Showing last known data.</string>
+    <string name="enter_city_to_see_weather">Enter a city to see the weather</string>
+    <string name="please_enter_city">Please enter a city name to see the forecast</string>
+    <string name="no_forecast_data">No forecast data available.</string>
+    <string name="loading_forecast">Loading forecast…</string>
+    <string name="app_name" translatable="false">WeatherApp</string>
+</resources>
