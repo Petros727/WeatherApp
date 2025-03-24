@@ -1,4 +1,3 @@
-import java.util.Properties
 
 plugins {
     alias(libs.plugins.android.application)
@@ -25,13 +24,7 @@ android {
         }
 
 
-        val localProperties = Properties()
-        val localPropertiesFile = project.rootProject.file("local.properties")
-        if (localPropertiesFile.exists()) {
-            localProperties.load(localPropertiesFile.reader())
-        }
-        val apiKey = localProperties.getProperty("WEATHER_API_KEY") ?: "\"\""
-        buildConfigField("String", "WEATHER_API_KEY", "\"$apiKey\"")
+        buildConfigField("String", "WEATHER_API_KEY", "\"${properties["WEATHER_API_KEY"]}\"")
     }
 
     buildTypes {

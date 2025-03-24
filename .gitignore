@@ -1,15 +1,22 @@
+# Ignoriraj Gradle cache direktorij
+.gradle/
+
+# Ignoriraj generirane build datoteke
+build/
+
+# Ignoriraj Android Studio datoteke
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+
+# Ignoriraj generirane datoteke
+captures/
+*.apk
+*.ap_
+
+# Ignoriraj osjetljive datoteke
 local.properties
+*.keystore
+*.jks
+
+# Ignoriraj lokalne konfiguracijske datoteke
+*.log
